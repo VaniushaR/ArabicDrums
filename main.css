@@ -1,0 +1,53 @@
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 4px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  font-size: 0.6rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s;
+  width: 100px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
+}
+.playing {
+  transform: scale(1.1);
+  border-bottom-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+kbd {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.sound {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffc600;
+}
+.title {
+  font-size: 4em;
+}
+footer {
+  text-align: center;
+}
+html {
+  background-image: url('./Assets/Arabic\ Percussion\ Player\ Image4.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(210, 210, 210);
+}
